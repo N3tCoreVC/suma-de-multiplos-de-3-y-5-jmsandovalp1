@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/suma-de-multiplos-de-3-y-5-jmsandovalp1.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
